@@ -16,4 +16,5 @@
 
 
 # Documentations
-https://github.com/SpacehuhnTech/WiFiDuck/issues/124
+* https://github.com/SpacehuhnTech/WiFiDuck/issues/124
+* https://github.com/TomFang1/WiFiDuck_CJMCU_3212/tree/master
