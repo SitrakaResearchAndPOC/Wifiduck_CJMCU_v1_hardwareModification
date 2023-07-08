@@ -6,12 +6,6 @@
 * Problems of continuity   
 <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard3.png" width="750px" align="center">
 <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard4.png" width="750px" align="center">
-* solution hardware
-<img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard5.jpeg" width="750px" align="center">
-  
-* solution software  
-<img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard6.jpeg" width="750px" align="center">
-<img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard7.png" width="750px" align="center">
 
 # Installing driver of USB (could be CP21x, FT23X, CH340G, PL23X)
 (In my case, it's [CP21x](https://drive.google.com/file/d/18dX5ws61_A4EaHKuIYNDSMMeMPuJHZG5/view?usp=drive_link))
@@ -20,7 +14,7 @@
 * [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
 # Finding port of CJMCU
-* Plug CJMCU
+* plug CJMCU
 * search : "devices manager" and click it
 * click "Ports (COM and LTP)"
 * remind the number of port come noted as COMX
@@ -35,7 +29,7 @@
 * Launch ESP8266Flasher.exe
 
 # Flashing esp8266_wifi_duck
-* Download Arduino and upload this code [step1](https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/step1.ino)  (select following port and type of board before uploading) 
+* Download Arduino and televersing this code [step1](https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/step1.ino)  (select following port and type of board before televersing) 
 * Connect The two pins as :
   <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/cjmcu2.jpeg" width="750px" align="center">
   <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/cjmcu3.jpeg" width="350px" align="center"></img>
@@ -44,11 +38,17 @@
 * In operation, Change port com as COMx
 * In config, change with the firmeware esp12e_wifiduck.cjmcu3212
 * In Advanced, change bauderate as Y at the first step
-* After successfull flashing, don't the two pins in the first step
-* Download this code [arduino_ducky](https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/arduino_wifi_duck.ino)  (select following port and type of board before uploading)
+* After successfull flashing, don't connect the two pins as in the first step
+* Download this code [arduino_ducky_cjmcu3212](https://raw.githubusercontent.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/main/atmega_duck.rar)
+* Televersing the code atmega_duck.ino (select following port and type of board before televersing)
 
-
-
+# Hardware solutions (connection SDA and SCL) 
+* solution hardware
+<img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard5.jpeg" width="750px" align="center">
+  
+* solution software  
+<img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard6.jpeg" width="750px" align="center">
+<img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard7.png" width="750px" align="center">
 
  
 # Using wifiduck
