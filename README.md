@@ -48,7 +48,6 @@
   
 * solution software  
 <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard6.jpeg" width="750px" align="center">
-<img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard7.png" width="750px" align="center">
 
  
 # Using wifiduck
