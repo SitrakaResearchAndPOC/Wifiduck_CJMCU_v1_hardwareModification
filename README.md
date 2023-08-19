@@ -31,9 +31,13 @@
 # Flashing esp8266_wifi_duck
 * Download Arduino and televersing this code [step1](https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/step1.ino)  (select following port and type of board before televersing) 
 * Connect The two pins as :
+  </br>
   REAL IMAGE  
+  </br>
   <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_flashing.jpg" width="750px" align="center">
+  </br>
   OR
+  </br>
   <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/cjmcu2.jpeg" width="750px" align="center">
   <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_old/blob/main/cjmcu3.jpeg" width="350px" align="center"></img>
 
@@ -47,9 +51,13 @@
 
 # Hardware solutions (connection SDA and SCL) 
 * solution hardware
+  </br>
   REAL IMAGE  
+  </br>
   <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_running.jpg" width="750px" align="center">
+  </br>
   OR
+  </br>
 <img src="https://github.com/SitrakaResearchAndPOC/Wifiduck_CJMCU_v1_hardwareModification/blob/main/cjmcu_hard5.jpeg" width="750px" align="center">
   
 * solution software  
