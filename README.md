@@ -56,6 +56,14 @@
 * On broswer, enter: http://192.168.4.1
 * Testing duckyscript as you need
 
+# Ducky Script example
+```
+DEFAULTDELAY 200  
+LOCALE FR  
+GUI r  
+STRING CMD  
+ENTER  
+```
 
 # Documentations
 * https://github.com/SpacehuhnTech/WiFiDuck/issues/124
